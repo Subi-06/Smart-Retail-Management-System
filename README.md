@@ -1,4 +1,4 @@
-# 🛒 SMART RETAIL MANAGEMENT SYSTEM
+# SMART RETAIL MANAGEMENT SYSTEM
 ### An Enterprise-Grade Indian Supermarket & Inventory Management System Architected with GoF Design Patterns
 
 [![Java 21](https://img.shields.io/badge/Java-21-orange.svg)](https://openjdk.org/projects/jdk/21/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Project Overview
+## 1. Project Overview
 The **Smart Retail Management System** is a full-stack, enterprise-grade online supermarket and inventory management web platform built using **Spring Boot (Java 21)** and **React + TypeScript (Tailwind CSS)**.
 
 It provides a realistic shopping experience with authentic Indian brands (*Amul, Aashirvaad, Tata, Britannia, India Gate, Colgate*) in **Indian Rupees (₹)**, featuring dynamic cart management with **1-click Undo**, multi-tier coupon discounts, automated **GST tax calculation**, multi-gateway payment processing (**UPI, Card, Cash**), and live order lifecycle tracking.
@@ -20,7 +20,7 @@ The entire backend is architected with **all 23 Gang of Four (GoF) Design Patter
 
 ---
 
-## 🚀 Key Features
+## 2. Key Features
 
 * **Authentic Indian Supermarket Catalog:** 48+ products across 6 departments (*Food & Bakery, Grocery & Staples, Beverages, Snacks, Electronics, Personal Care*).
 * **Smart Cart with 1-Click Undo:** Add, modify, or remove items. If the cart is accidentally cleared, restore it instantly with 1-click **Undo** powered by Command & Memento patterns.
@@ -32,7 +32,7 @@ The entire backend is architected with **all 23 Gang of Four (GoF) Design Patter
 
 ---
 
-## 🏛️ Design Patterns Implemented (23 GoF + 6 Architecture)
+## 3. Design Patterns Implemented (23 GoF + 6 Architecture)
 
 | Category | Patterns Implemented |
 |---|---|
@@ -43,7 +43,7 @@ The entire backend is architected with **all 23 Gang of Four (GoF) Design Patter
 
 ---
 
-## ⚡ Quick Start Guide
+## 4. Quick Start Guide
 
 ### 1. Prerequisites
 - **Java 21 JDK** installed
@@ -66,7 +66,7 @@ npm run dev           # Starts frontend on http://localhost:3000
 
 ---
 
-## 🔑 Demo Login Credentials
+## 5. Demo Login Credentials
 
 | Role | Name | Email | Password | Perks |
 |---|---|---|---|---|
@@ -77,7 +77,7 @@ npm run dev           # Starts frontend on http://localhost:3000
 
 ---
 
-## 📁 Repository Structure
+## 6. Repository Structure
 
 ```
 smart-retail-management-system/
@@ -101,5 +101,5 @@ smart-retail-management-system/
 
 ---
 
-## 📄 License
+## 7. License
 This project is licensed under the MIT License.

@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
 import { DesignPatternModal } from './components/DesignPatternModal';
 import { BillReceiptModal } from './components/BillReceiptModal';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 // Customer Pages
 import { CustomerHome } from './pages/CustomerHome';
@@ -181,12 +182,14 @@ const AppContent = () => {
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <AuthProvider>
-        <ToastProvider>
-          <AppContent />
-        </ToastProvider>
-      </AuthProvider>
-    </BrowserRouter>
+    <ErrorBoundary>
+      <BrowserRouter>
+        <AuthProvider>
+          <ToastProvider>
+            <AppContent />
+          </ToastProvider>
+        </AuthProvider>
+      </BrowserRouter>
+    </ErrorBoundary>
   );
 }
